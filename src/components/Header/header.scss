@@ -1,0 +1,23 @@
+.header {
+  margin: auto;
+  max-width: 800px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+
+  img {
+    width: 100px;
+  }
+
+  button {
+    padding: 7px;
+    border-radius: 8px;
+    background-color: rgb(50, 97, 201);
+    color: white;
+    cursor: pointer;
+  }
+}

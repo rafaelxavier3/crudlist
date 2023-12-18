@@ -1,0 +1,39 @@
+article {
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+}
+
+.cardContainer {
+  margin: auto;
+  min-width: 550px;
+  background: #00000063;
+
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+  border-radius: 8px;
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  p {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .cardContainer {
+    min-width: auto;
+    width: 90%;
+  }
+}
