@@ -15,12 +15,12 @@ export function Card({ post, DeletePost }) {
       <header>
         <h2>{post.title}</h2>
         <div className="icons">
-          <AiOutlineDelete onClick={passId} size={23} cursor="pointer" />
           <AiOutlineEdit
             onClick={() => navigate(`/updatePost/${post.id}`)}
             size={23}
             cursor="pointer"
           />
+          <AiOutlineDelete onClick={passId} size={23} cursor="pointer" />
         </div>
       </header>
       <p>{post.description}</p>
