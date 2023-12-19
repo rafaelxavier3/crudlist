@@ -5,7 +5,7 @@ crudList
 ## Descrição
 
 Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida em React. Permite a manipulação de dados através de operações, proporcionando uma interface intuitiva para criar, visualizar, editar e excluir tarefas.
-Foi utilizada uma ferramenta que permite criar rapidamente uma API REST simulada usando um arquivo JSON como fonte de dados. Ela é bem útil para testar aplicações front-end sem a necessidade de configurar um servidor back-end.
+Foi utilizada uma ferramenta que permite criar rapidamente uma API REST fake usando um arquivo JSON como fonte de dados. Ela é bem útil para testar aplicações front-end sem a necessidade de configurar um servidor back-end.
 
 ## Funcionalidades
 
@@ -19,6 +19,7 @@ Foi utilizada uma ferramenta que permite criar rapidamente uma API REST simulada
 - React
 - HTML5
 - SASS
+- JSON Server (API Fake)
 
 <p align="center">
   <img src="/readme/readme.png"/>
